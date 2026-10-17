@@ -236,7 +236,7 @@ const sc=n=>SC[n]||"#8ff58f";
 let id=Date.now();
 const LS={g(k,d){try{const v=localStorage.getItem('papo:'+k);return v?JSON.parse(v):d}catch(e){return d}},s(k,v){try{localStorage.setItem('papo:'+k,JSON.stringify(v));return 1}catch(e){if(e&&e.name=='QuotaExceededError'){toast('Sem espaço para salvar');return 0}return 1}}};
 const chats=[];
-const calls=[["Miguel","in","Hoje, 12:05"],["Ana","miss","Hoje, 11:42"],["Lucas","in","Hoje, 10:28"],["Mãe","in","Hoje, 09:17"],["Rafa","in","Ontem, 22:36"],["Trabalho","miss","Ontem, 16:21"],["João","in","Ontem, 14:03"]];
+const calls=[];
 const cfg=[["key","Conta","Privacidade, segurança, mudar número"],["chat","Conversas","Tema, papel de parede, histórico de conversas"],["bell","Notificações","Mensagens, grupos, chamadas"],["star","Armazenamento e dados","Uso de rede, download automático"],["help","Ajuda","Central de ajuda, fale conosco"],["usr","Convidar um amigo",""]];
 const tabs=[["Conversas","chat"],["Status","stat"],["Chamadas","ph"],["Configurações","gear"]];
 let tab=0,cur=null,fil="Todas",q="";

@@ -1,0 +1,13 @@
+PAPO (versão com Firebase)
+
+1) Envie TODOS os arquivos desta pasta para o repositório do GitHub (substituindo os antigos):
+   index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png
+2) Aguarde 1-2 minutos e abra o link do GitHub Pages no Chrome do celular.
+   Se aparecer a versão antiga, feche e abra de novo (ou limpe os dados do site).
+3) Toque em "Criar conta" (e-mail e senha) ou "Continuar com Google".
+4) Na tela "Token de acesso" aparece "Seu ID". Copie esse ID.
+5) No console do Firebase: Realtime Database > Dados > crie o caminho
+   papo > admins > (o seu ID) com o valor  true  (sem aspas).
+6) Volte ao app e toque em "Sou administrador" > escreva seu nome > Concluir.
+7) Configurações > Conta > Painel do administrador > Gerar token (24h).
+   Envie o token para cada amigo. Cada token vale para uma pessoa e expira em 24h.
